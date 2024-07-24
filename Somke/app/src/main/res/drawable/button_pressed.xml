@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/btnimage" android:insetLeft="5dp" android:insetTop="5dp" android:insetRight="5dp" android:insetBottom="5dp"/>
+    </item>
+    <item>
+        <inset android:drawable="@drawable/btnimage" android:insetLeft="0dp" android:insetTop="0dp" android:insetRight="0dp" android:insetBottom="0dp"/>
+    </item>
+</selector>

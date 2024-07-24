@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.somke.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        android:textColor="#3A4861"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_text_date"
+        android:name="com.example.somke.ui.start.GalleryFragment"
+        android:label="禁煙開始日"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="com.example.somke.ui.record.RecordFragment"
+        android:label="禁煙カルテ変更"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_siori"
+        android:name="com.example.somke.ui.siori.SioriFragment"
+        android:label="禁煙のしおり"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_reset"
+        android:name="com.example.somke.ui.reset.SlideshowFragment"
+        android:label="禁煙失敗者へ"
+        tools:layout="@layout/fragment_reset" />
+    <fragment
+        android:id="@+id/nav_gohome"
+        android:name="com.example.somke.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/start_screen"
+        android:name="com.example.somke.ui.Start_screen"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+</navigation>

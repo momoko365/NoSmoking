@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_text_date"
+            android:title="禁煙開始日："
+            />
+
+        <item
+            android:id="@+id/nav_record"
+            android:title="禁煙カルテの変更" />
+        <item
+            android:id="@+id/nav_siori"
+            android:title="禁煙のしおり" />
+        <item
+            android:id="@+id/nav_reset"
+            android:title="禁煙失敗者へ" />
+        <item
+            android:id="@+id/nav_gohome"
+            android:title="ホームへ"
+            />
+
+    </group>
+</menu>

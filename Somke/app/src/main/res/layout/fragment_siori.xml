@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.siori.SioriFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/haikei2"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="禁煙成功のヒント
+        \n禁煙する理由をはっきりさせる
+        \n周囲の人に禁煙の決心を伝える
+        \n吸いたくなる状況を把握し、対策を立てる
+        \n禁煙開始日を決める
+        \n離脱症状対策
+        \n気持ちに踏ん切りをつけ、きっぱり断煙する
+        \n目標設定は高すぎず、低すぎず小刻みに、成功体験を積み重ねよう
+        \nつらいときには気をそらす
+        \n禁煙後に現れる「いいこと」探しのクセをつける
+        \n油断は禁物、再喫煙防止
+        \n依存が重い人は、禁煙補助薬を使用する
+        \nタバコに対する誤った認識を修正する
+        \nタバコを吸ってもストレスは解消されない
+        \nタバコをやめても失うものは何もない
+        \n、離脱症状の多くは、禁煙後3日以内にピークとなり、長くても2～3週間で治まるのが一般的
+        \n離脱症状は順調に禁煙できている証拠
+        \nタバコを近くに置かない、ライターを処分する
+        \n口の中が寂しくなったら飴を食べる
+        \n目標の期日まで達成出来たら自分にご褒美をあげる
+        \n禁煙日数を1日ずつ伸ばしながらタバコをやめていく
+        \n禁煙開始後数日間は「たばこが吸いたい！」という気持ちが1日数回出現することもあります。
+        \nそんなときにどんな対処をしたらたばこを吸わないでいられるかを事前に考えておくことで、
+        \n吸いたい気持ちのコントロールをすることが可能となります。
+        \nたばこを吸いたい気持ちは1日中ずっと続くわけではありません。長く続いても3分～5分です。
+        \nたばこを吸いたくなる場面を手帳に書き出し、そのときにたばこを吸うこと以外で可能な3～5分の行動や、
+        \nたばこの代わりになるものを事前に考えておくなどすることで、急な喫煙欲求にも対処が可能となります。
+        \n禁煙開始前7日間は、吸いたい気持ちがでてきたら、ご自分で書き出した対処法を実施し効果を確かめます。
+        \n効果がなければ他の方法を考えて実施してみましょう。下記に一例を挙げてみました。
+        \n食後にタバコを吸いたくなった場合は、歯磨きをして吸いたい気持ちを抑えましょう。
+        \nすぐに歯を磨けない場合は、ガムやミントタブレットなどでもOK！
+        \nタバコを吸いたい気持ちは1〜3分でおさまると言われてます。食後でなくても歯磨きやガムは、禁煙中におすすめの習慣の一つです。
+        \nコーヒーを飲むとタバコを吸いたくなる場合が多いので、禁煙中はなるべく避けたい習慣です。
+        \n紅茶や緑茶、ジャスミンティーなどに変えて、禁煙の習慣が安定するまでは避けるのがベストです。
+        \n仕事中の休憩時にタバコを吸いたくなる人は、あらかじめ職場の人や家族に禁煙することを宣言しておきましょう。
+        \n簡単なことですが、周りの目があることで、タバコが吸いたくなったときに客観的に自分を見ることができて冷静になれます。
+        \nまた、トイレやお茶を買いに行くなど簡単なことでいいので、歩いて場所を変えてみるのも効果的です。
+        \nお酒の席でタバコが吸いたくなる人は、お酒と一緒に冷水を用意しておきましょう。
+吸いたくなったら水を飲み、気を紛らわせます。
+        \nまた、東京では店内でタバコが吸える居酒屋がほとんどなくなりました。
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
